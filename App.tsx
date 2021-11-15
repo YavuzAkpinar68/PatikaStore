@@ -14,7 +14,7 @@ export default function App() {
     <View style={styles1.view_container}>
       <View style={styles.textInput_view_container}>
         <Text style={styles.text_patika_container}>Patikastore</Text>
-        <Ara placeholder="ara beni yala benis" value={keyword} onChangeText={(e: any) => setKeyword(e)} />
+        <Ara placeholder="ara..." value={keyword} onChangeText={(e: any) => setKeyword(e)} />
       </View>
       <FlatList
       horizontal={false}
